@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
-  "tyoes": "types/index.d.ts",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
     "types"
