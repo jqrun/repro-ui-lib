@@ -17,15 +17,15 @@ Object.keys(_FancyButton).forEach(function (key) {
   });
 });
 
-var _test = require("./Test/test");
+var _FancyProvider = require("./FancyProvider");
 
-Object.keys(_test).forEach(function (key) {
+Object.keys(_FancyProvider).forEach(function (key) {
   if (key === "default" || key === "__esModule") return;
-  if (key in exports && exports[key] === _test[key]) return;
+  if (key in exports && exports[key] === _FancyProvider[key]) return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function get() {
-      return _test[key];
+      return _FancyProvider[key];
     }
   });
 });
