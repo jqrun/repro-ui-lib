@@ -5,11 +5,11 @@ export const FancyProvider: FunctionComponent = ({ children }) => {
   return (
     <ThemeProvider theme={createMuiTheme({})}>
       <Box
-        sx={{
-          width: '100%',
-          height: '100%',
-          background: 'gray',
-        }}
+      // sx={{
+      //   width: '100%',
+      //   height: '100%',
+      //   background: 'gray',
+      // }}
       >
         {children}
       </Box>
