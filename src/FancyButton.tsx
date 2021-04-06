@@ -1,4 +1,4 @@
-import { Button } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
 import { FunctionComponent } from 'react';
 
 export const FancyButton: FunctionComponent = ({ children }) => {
