@@ -6,7 +6,8 @@
   "types": "types/index.d.ts",
   "files": [
     "dist",
-    "types"
+    "types",
+    "package.json"
   ],
   "dependencies": {
     "react": "latest",
