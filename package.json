@@ -15,7 +15,8 @@
   },
   "peerDependencies": {
     "@material-ui/core": "next",
-    "@material-ui/styled-engine-sc": "next"
+    "@material-ui/styled-engine-sc": "next",
+    "styled-components": "latest"
   },
   "devDependencies": {
     "@babel/cli": "latest",
