@@ -1,5 +1,6 @@
 import { Box, createMuiTheme, ThemeProvider } from '@material-ui/core';
 import { FunctionComponent } from 'react';
+import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
 
 export const FancyProvider: FunctionComponent = ({ children }) => {
   return (

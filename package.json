@@ -14,7 +14,8 @@
     "react-dom": "latest"
   },
   "peerDependencies": {
-    "@material-ui/core": "next"
+    "@material-ui/core": "next",
+    "@material-ui/styled-engine-sc": "next"
   },
   "devDependencies": {
     "@babel/cli": "latest",
