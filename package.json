@@ -24,7 +24,6 @@
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
     "@babel/preset-typescript": "latest",
-    "@material-ui/core": "next",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -33,7 +32,8 @@
   "scripts": {
     "clean": "rm -rf dist/ && rm -rf types/",
     "build": "babel src --extensions '.ts,.tsx' --out-dir dist && tsc",
-    "cb": "npm run clean && npm run build"
+    "cb": "npm run clean && npm run build",
+    "burnthemall": "rm -rf node_modules/ && rm -f package-lock.json && npm i -f"
   },
   "eslintConfig": {
     "extends": [
