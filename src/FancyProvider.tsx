@@ -1,4 +1,4 @@
-import { createMuiTheme, ThemeProvider } from '@material-ui/core';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { FunctionComponent } from 'react';
 import Box from '@material-ui/core/Box';
 
