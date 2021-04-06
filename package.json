@@ -33,7 +33,8 @@
     "clean": "rm -rf dist/ && rm -rf types/",
     "build": "babel src --extensions '.ts,.tsx' --out-dir dist && tsc",
     "cb": "npm run clean && npm run build",
-    "burnthemall": "rm -rf node_modules/ && rm -f package-lock.json && npm i -f"
+    "burnthemall": "rm -rf node_modules/ && rm -f package-lock.json && npm i -f",
+    "prepare": "npm run build"
   },
   "eslintConfig": {
     "extends": [
